@@ -49,10 +49,12 @@ const perguntas = [
             }
         ]
     },
+];
     
 
 
-let atual = 0;
+    
+let atual = 0
 let perguntaAtual;
 let historiaFinal = "";
 

@@ -9,13 +9,15 @@ const perguntas = [
         enunciado: "A agricultura moderna refere-se ao usode tecnologias avançadas e práticas inovadoras para melhorar a produtividade agrícola e a eficiência dos recursos. De que forma a adoção de novas tecnologias agrícolas pode equilibrar o aumento da produção e a preservação ambiental, considerando as limitações de financiamento e treinamento de pequenos agricultores em países de desenvolvimento?",
         alternativas: [
             {
-                afirmacao: "O uso de tecnologias pode aumentar a produtividade e reduzir o impacto ambiental, desde que os agricultores possam ter acesso a recursos de suporte adquado",
+               texto: "O uso de tecnologias pode aumentar a produtividade e reduzir o impacto ambiental, desde que os agricultores possam ter acesso a recursos de suporte adquado",
+               afirmacao: "sim."
             },
             {
                 afirmacao: "Sem financiamento e treinamento, a adoção de tecnologias pode favorecer grandes produtores e prejudicar pequenos agricultores e o meio ambiente",
+                afirmacao: "não."
+            },
             }
         ]
-    },
     {
         enunciado: "Quais são os primcipais obstáculos para a implementação de práticas agricolas sustentáveis em regiões de clima extremo, e como politicas públicas eficazes podem mitigar esses desafios?",
         alternativas: [
@@ -26,7 +28,6 @@ const perguntas = [
                 afirmacao: "Incentivos governamentais direcionados podem motivar agricultores a adotar praticas sustentaveis, apesar do desafio climatico.",
             }
         ]
-    },
     {
         enunciado: "Como a agricultura de precisão pode contribuir para um uso mais eficiente e sustentável dos recursos naturais, especialmente em áreas agricolas vulneráveis, levando em conta a necessidade de reduzir custos operacionais e a dificuldade de pequenos produtores em adotar tecnologias avançadas?",
         alternativas: [

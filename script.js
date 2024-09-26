@@ -5,12 +5,13 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
+
     {
         enunciado: "A agricultura moderna refere-se ao uso de tecnologias avançadas e práticas inovadoras para melhorar a produtividade agrícola e a eficiência dos recursos. De que forma a adoção de novas tecnologias agrícolas pode equilibrar o aumento da produção e a preservação ambiental, considerando as limitações de financiamento e treinamento de pequenos agricultores em países de desenvolvimento?",
         alternativas: [
             {
                 texto: "O uso de tecnologias pode aumentar a produtividade e reduzir o impacto ambiental, desde que os agricultores possam ter acesso a recursos de suporte adequado",
-                afirmacao: "Sim"
+                afirmacao: "Sim."
             },
             {
                 texto: "Sem financiamento e treinamento, a adoção de tecnologias pode favorecer grandes produtores e prejudicar pequenos agricultores e o meio ambiente",

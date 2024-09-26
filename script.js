@@ -10,45 +10,51 @@ const perguntas = [
         alternativas: [
             {
                texto: "O uso de tecnologias pode aumentar a produtividade e reduzir o impacto ambiental, desde que os agricultores possam ter acesso a recursos de suporte adquado",
-               afirmacao: "sim."
+               afirmacao: "não."
             },
             {
                 afirmacao: "Sem financiamento e treinamento, a adoção de tecnologias pode favorecer grandes produtores e prejudicar pequenos agricultores e o meio ambiente",
                 afirmacao: "não."
-            },
             }
-        ]
+    ]
+    },
     {
         enunciado: "Quais são os primcipais obstáculos para a implementação de práticas agricolas sustentáveis em regiões de clima extremo, e como politicas públicas eficazes podem mitigar esses desafios?",
         alternativas: [
             {
-                afirmacao: "A falta de recursos e infraestrutura adquados são os maiores desafios, mas o apoio governamental poderia facilitar o acesso a tecnologias apropriadas.",
+                texto: "A falta de recursos e infraestrutura adquados são os maiores desafios, mas o apoio governamental poderia facilitar o acesso a tecnologias apropriadas.",
+                   afirmacao: "não."
             },
             {
-                afirmacao: "Incentivos governamentais direcionados podem motivar agricultores a adotar praticas sustentaveis, apesar do desafio climatico.",
+                texto: "Incentivos governamentais direcionados podem motivar agricultores a adotar praticas sustentaveis, apesar do desafio climatico.",
+                   afirmacao: "não."
             }
         ]
+    },
     {
         enunciado: "Como a agricultura de precisão pode contribuir para um uso mais eficiente e sustentável dos recursos naturais, especialmente em áreas agricolas vulneráveis, levando em conta a necessidade de reduzir custos operacionais e a dificuldade de pequenos produtores em adotar tecnologias avançadas?",
         alternativas: [
             {
-                afirmacao: "A agricultura de precisão pode melhorar o uso da água e fertilizantes, reduzindo desperdicios e custos, enquanto aumenta a produtividade e promove uma gestão mais sustentável.",
+                texto: "A agricultura de precisão pode melhorar o uso da água e fertilizantes, reduzindo desperdicios e custos, enquanto aumenta a produtividade e promove uma gestão mais sustentável.",
+               afirmacao: "não."
             },
             {
-                afirmacao: "Os custos iniciais para implementar a agricultura de precisão podem ser altos e inacessíveis para pequenos agricultores, aumentando a desigualdade e o uso inadequado de recursos.",
-            }
+                texto: "Os custos iniciais para implementar a agricultura de precisão podem ser altos e inacessíveis para pequenos agricultores, aumentando a desigualdade e o uso inadequado de recursos.",
+                afirmacao: "não."
+                }
         ]
     },
     {
         enunciado: "De que maneira o uso de biotecnologias na agricultura pode não apenas aumentar a produtividade de forma significativa em áreas com solos pobres ou degrados, mas também garantir que esse avanço não compromet a biodiversidade e integridade dos ecossistemas locais a prazo?",
         alternativas: [
             {
-                afirmacao: "Pode ajudar a restraurar e melhorar a eficiencia produtiva, mimizando a necessidade de insumos quimicos e promovendo práticas mais sustentaveis para proteger a biodiversidade.",
-            },
-            {
-                afirmacao: "O uso indiscriminado da biotecnologia pode colocar em risco a biodiversidade local, com potenciais impactos negativos inversiveis sobre o equilibrio dos ecossistemas.",
-            }
-        ]
+                texto: "Pode ajudar a restraurar e melhorar a eficiencia produtiva, mimizando a necessidade de insumos quimicos e promovendo práticas mais sustentaveis para proteger a biodiversidade.",
+                afirmacao: "não."
+             },
+             {
+                texto: "O uso indiscriminado da biotecnologia pode colocar em risco a biodiversidade local, com potenciais impactos negativos inversiveis sobre o equilibrio dos ecossistemas.",
+                afirmacao: "não." 
+            } ]
     },
 ];
     

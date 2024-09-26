@@ -52,7 +52,6 @@ const perguntas = [
 ];
     
 
-
     
 let atual = 0
 let perguntaAtual;
@@ -79,8 +78,7 @@ function mostraAlternativas(){
 }
 
 function respostaSelecionada(opcaoSelecionada) {
-    const afirmacoes = opcaoSelecionada.afirmacao;
-    historiaFinal += afirmacoes + " ";
+
     atual++;
     mostraPergunta();
 }

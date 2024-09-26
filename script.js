@@ -46,24 +46,10 @@ const perguntas = [
             },
             {
                 texto: "O uso indiscriminado da biotecnologia pode colocar em risco a biodiversidade local, com potenciais impactos negativos inversiveis sobre o equilibrio dos ecossistemas.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
             }
         ]
     },
-    {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
-        alternativas: [
-            {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
-            },
-            {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
-            }
-        ]
-    },
-];
+    
 
 
 let atual = 0;
@@ -98,7 +84,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "O uso de tecnologias na agricultura oferece tanto oportunidades quanto riscos. Inovações como a agricultura de precisão e a biotecnologia podem melhorar a produtividade e promover a sustentabilidade, mas seu sucesso depende de como essas soluções são implementadas. Para que os pequenos agricultores não sejam prejudicados e o meio ambiente não seja comprometido, políticas públicas eficazes e estratégias inclusivas precisam ser priorizadas. Assim, o futuro da agricultura sustentável dependerá do equilíbrio entre inovação e responsabiliade ecológica";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
